@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: '',sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+.img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+
+}
+.top-menu li{
+    display: inline-block;
+}
+.top-menu li a{
+    color: black;
+}
+.mobile-menu{
+    display: none;
+}
+.menu-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #030D15;
+}
+.top-menu li:not(:last-child){
+    margin-right: 40px;
+}
+.top-bar .top-bar-icon{
+    display: inline-block;
+}
+.top-bar .top-bar-icon:not(:last-child){
+    margin-left: 37px;
+}
+.top-bar-icon a i{
+    color: black;
+    font-size: 20px;
+    }
+.top-bar-icon a .bx-user{
+    color: black;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F9FC;
+    margin-left: 30px;
+
+}
+
+.top-bar-icon .bx-cart{
+    position: relative;
+}
+.bx-cart span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #C72535;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.favorite{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+}
+.hero-title span{
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    color: #247CC0;
+    background: #cfe4ec;
+    display: inline-block;
+}
+.hero-title{
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 73px;
+    margin: 3px 0 29px;
+}
+.hero-desc{
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.6;
+    margin-bottom: 36px;
+}
+.hero-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #247CC0;
+    padding: 16px 35px;
+    display: inline-block;
+    margin-right: 31px;
+
+}
+.big-price{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #030D15;
+}
+.price{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #030D15;
+    opacity: 0.5;
+
+}
+
+.box-brands{
+    padding: 76px 0 ;
+    background: #FFFFFF;
+    box-shadow: 0 100px 80px rgba(174, 174, 174, 0.08), 0 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+    width: 1140px;
+}
+/*.logos{*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+.brands-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product{
+    margin: 110px 0;
+}
+.box-product{
+    border:none;
+    position: relative;
+}
+.box-product .product-img{
+    object-fit: contain;
+    max-width: 100%;
+}
+.box-product span{
+    position: absolute;
+    top: -19px;
+    right: -19px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+
+}
+.right{
+    margin-right: 30px;
+}
+
+.product-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #030D15;
+}
+.product-info{
+    font-size: 14px;
+    line-height: 21px;
+    color: #030D15;
+    margin: 9px 0 20px;
+
+}
+.stars{
+    margin-top: 15px;
+}
+.red-star{
+    color: #C72535;
+}
+.gray-star{
+    color: #F4F9FC;
+}
